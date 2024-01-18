@@ -1,20 +1,20 @@
-<h1> Lesson 5.5: Bug Bounties </h1>
+<h1> Lesson 6.2: Basics of WLANs </h1>
 <h2> Summary</h2>
 
-<p1>In this lesson, students will delve into the world of ethical hacking, exploring its financial prospects and societal implications. They will learn about the professional pathway of ethical hackers, the concept of bug bounties, and how organizations leverage these programs to enhance their security posture.</p1>
+<p1>This lesson introduces students to the foundational concepts of Wireless Local Area Networks (WLANs). By understanding WLANs' structure, functioning, and security, students will be better equipped to safely and efficiently utilize wireless networks.</p1>
 <br>
 
 <h2>Learning Objectives</h2>
 <ul>
-<li>Students will define ethical hacking and differentiate it from other forms of hacking.</li>
+<li>Students will be able to explain what a WLAN is, how it functions, and its main components.</li>
   <br>
-<li>Students will understand the qualifications and skills necessary to become an ethical hacker.</li><br>
+<li>Students will identify the standard frequency bands used in WLANs and discuss their significance.</li><br>
   
-<li>Students will define what bug bounties are and understand their significance in identifying security vulnerabilities.</li><br>
+<li>Students will describe standard security measures, including WPA/WPA2/WPA3, and the importance of securing wireless networks.</li><br>
 
-<li>Objective Summary and Learning Outcome.</li><br>
+<li>By the end of the lesson, students should be able to set up a simple WLAN, assign an SSID, and apply basic security settings.</li><br>
 
-<li>Students will understand the legal boundaries within which ethical hacking and bug bounty programs operate.</li>
+<li>Students will analyze real-world scenarios to determine the best practices for setting up and securing WLANs in various environments.</li>
 </ul>
 
 <h2>Vocabulary and Acronyms</h2>
@@ -22,15 +22,15 @@
 <ul>
 <li>
 
-  **Ethical Hacking**</li>
+  **WLAN**</li>
   
 <li>
 
-**Responsible Disclosure**</li>
+**AP - Access Point**</li>
   
 <li>
   
-**White Hat Hacker**</li>
+**SSID**</li>
   
 <li>
   
@@ -42,306 +42,131 @@
   
 <li>
   
- **Black Hat Hacker**</li>
+ **WPA/WPA2/WPA3**</li>
 
   <li>
   
- **CVE/ID - CVE Identifier**</li>
+ **Frequency Bands**</li>
 
  <li>
   
- **Grey Hat Hacker**</li>
+ **Channel**</li>
+
+<li>
+  
+ **Hotspot**</li>
+
+ <li>
+  
+ **MAC Address Filtering**</li>
 
 </ul>
 
 <h2>NICE Framework KSAs</h2>
 
 <ul>
-<li>K0427 - Knowledge of encryption algorithms and cyber capabilities/tools (e.g., SSL, PGP).</li>
+<li>K0113 - Knowledge of different types of network communication (e.g., LAN, WAN, MAN, WLAN, WWAN).</li>
 <br>
-<li>S0138 - Skill in using Public-Key Infrastructure (PKI) encryption and digital signature capabilities into applications (e.g., S/MIME email, SSL traffic).</li>
+<li>K0428 - Knowledge of encryption algorithms and tools for wireless local area networks (WLANs).</li>
 <br>
-<li>K0018 - Knowledge of encryption algorithms.</li>
+<li>K0442	- Knowledge of how converged technologies impact cyber operations (e.g., digital, telephony, wireless).</li>
 <br>
-<li>K0624 - Knowledge of Application Security Risks (e.g. Open Web Application Security Project Top 10 list).</li>
+<li>K0446 - Knowledge of how modern wireless communications systems impact cyber operations.</li>
 <br>
-<li>K0135 - Knowledge of web filtering technologies.</li>
+<li>K0600 - Knowledge of modern wireless communications systems' structure, architecture, and design.</li>
 <br>
-<li>K0398 - Knowledge of concepts related to websites (e.g., web servers/pages, hosting, DNS, registration, web languages such as HTML).</li>
+<li>S0182 - Skill in analyzing target communications internals and externals collected from wireless LANs.</li>
 <br>
-<li>K0444 - Knowledge of how Internet applications work (SMTP email, web-based email, chat clients, VOIP).</li>
+<li>S0276 - Skill in survey, collection, and analysis of wireless LAN metadata.</li>
 <br>
-<li>K0447 - Knowledge of how to collect, view, and identify essential information on targets of interest from metadata (e.g., email, http).</li> 
+<li>S0299 - Skill in wireless network target analysis, templating, and geolocation.</li> 
+<br>
+<li>A0100 - Ability to perform wireless collection procedures to include decryption capabilities/tools.</li>
 </ul>
 
 
 <h2>Lesson Prerequisites</h2>
-<p1>Any topical or subject matter to prepare for the lesson. In Advanced Cyber Lessons, previous Lessons can be referenced. </p1>
+<p1>Any topical or subject matter to prepare for the lesson. In Advanced Cyber Lessons, previous Lessons can be referenced.</p1>
 <br>
 
 
 <h2>Introduction</h2>
-In the face of escalating cyber threats, ethical hacking has emerged as a robust shield safeguarding the digital realm. This lesson delineates the ethos of ethical hacking, the lucrative allure of bug bounty programs, and the legal scaffolding that governs these domains.
+Wireless Local Area Networks, commonly called WLANs, have revolutionized how we access and share information. They facilitate establishing networks without the constraints of cables or fixed connections. In a world driven by connectivity, understanding WLANs is essential.
 
 
-<h2>Understanding Ethical Hacking</h2>
-Ethical hacking, epitomized as the epitome of cybersecurity vigilance, entails authorized probing of systems to unveil potential vulnerabilities.
-<h3><ins>Types of Hackers:</ins></h3>
+<h2>Definition and Key Concepts</h2>
+A WLAN allows devices to connect and communicate wirelessly within a local area, such as a home, office, or school. The network is facilitated by devices called Access Points (APs), which serve as the central hub for the network.
+
+
+
+<h2>Real-World Examples</h2>
 <ul>
-  <li>White Hat (Ethical Hackers)</li>
-  <li>Black Hat (Malicious Hackers)</li>
-  <li>Grey Hat (Middle-ground)</li>
-</ul>
-
-
-<h2>Exploring the Professional Pathway of Ethical Hackers</h2>
-
-Ethical hacking has emerged as a crucial cybersecurity profession. Organizations across the globe are recognizing the indispensable value of ethical hackers in fortifying their digital assets against malicious threats. Here, we unfold the journey of becoming an ethical hacker, the skill sets required, the certifications that add a feather to one’s cap, and the various avenues through which ethical hackers can contribute to cybersecurity while generating income.
-
-
-
-<h3><ins>Certifications</ins></h3>
-Acquiring certifications is a stepping stone towards establishing credibility in the field of ethical hacking. These certifications attest to one's skills and knowledge in cybersecurity and ethical hacking.
-<ul>
-  <li><ins>Certified Ethical Hacker (CEH)</ins></li>
-  <ul>
-    <li>Offered by EC-Council, the CEH certification equips individuals with the knowledge and skills to seek out vulnerabilities within an organization's systems.
+  <li>
+    
+  **Home Networks:** Most modern households have a WLAN, allowing family members to connect smartphones, laptops, smart TVs, and other devices to the internet wirelessly. The network name (SSID) might be something familiar, like "SmithFamilyWiFi," it would likely be secured using WPA2 or WPA3 to prevent unauthorized access.</li>
+  <li>
+    
+  **Coffee Shops & Restaurants:** Establishments often offer free Wi-Fi as an incentive for customers. You might have connected to an SSID like "CafeLatteFreeWiFi" while sipping your coffee. These networks, being public, have unique security challenges.</li>
+  <li>
+    
+  **Educational Institutions:** Schools and universities set up extensive WLANs to allow students and staff to access resources. Such networks might employ advanced features like MAC Address Filtering to ensure that only school-issued devices can connect.
 </li>
-    <li><a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/">CEH Certification Details</a></li>
-  </ul>
-  <br>
-  <li><ins>Offensive Security Certified Professional (OSCP)</ins></li>
-  <ul>
-    <li>This hands-on certification offered by Offensive Security tests one's ability to conduct penetration tests in a controlled environment.</li>
-    <li><a href="https://www.offensive-security.com/pwk-oscp/">OSCP Certification Details</a></li>
-  </ul>
-</ul>
-
-<h3><ins>Skill Sets</ins></h3>
-Proficiency in certain technical and soft skills is pivotal for a successful career in ethical hacking.
-<ul>
-<li><ins>Technical Skills</ins></li>
-<ul>
-<li>Knowledge of programming languages such as Python, JavaScript, and SQL.</li>
-<li>Proficiency in operating systems, particularly Linux.</li>
-<li>Understanding of networking and web technologies.</li>
-  </ul>
-<br>
-<li><ins>Soft Skills</ins></li>
-<ul>
   <li>
     
-  **Problem-Solving**: Ability to think like a hacker (creatively and analytically) to identify vulnerabilities.</li>
-  <li>
-
-  **Communication**: Effectively conveying findings and recommendations to non-technical stakeholders.</li>
-</ul>
+  **Airports and Transport Hubs:** Airports often have WLANs named after the airport or the service provider. Given the high footfall, these WLANs are designed to handle many connections simultaneously.</li>
 </ul>
 
-<h3><ins>Income Avenues</ins></h3>
-Ethical hackers have various avenues to ply their trade while making a significant impact in the realm of cybersecurity.
+<h2> Importance of WLAN Security</h2>
 <ul>
-  <br>
-<li><ins>Penetration Testing</ins></li>
-<ul>
-  <li>Conducting authorized simulated attacks to identify vulnerabilities in systems, networks, or applications.</li>
-  <br>
+  <li>WLANs, especially public ones, are susceptible to various threats. Unauthorized access, data interception, and network misuse are just concerns. Therefore, implementing security measures, such as WPA3 encryption and MAC Address Filtering, is crucial.
+  </li>
+  <li>For instance, a hacker might try to create a rogue hotspot at an airport with a similar SSID like "AirportFreeWiFi_2." Unsuspecting users might connect to this rogue network, exposing their data to the hacker. Thus, always ensuring connection to legitimate networks and employing personal security measures like VPNs becomes essential.</li>
 </ul>
-<li><ins>Security Analysis</ins></li>
-<ul>
-  <li>Evaluating and ensuring the security of digital assets, and recommending measures to mitigate identified vulnerabilities.</li>
-  <br>
-</ul>
-<li><ins>Bug Bounty Hunting</ins></li>
-<ul>
-  <li>Participating in bug bounty programs to identify and report security vulnerabilities in exchange for rewards.
-</li>
-  <br>
-</ul>
-<li><ins>Cybersecurity Consulting</ins></li>
-<ul>
-  <li>Providing expertise and recommendations to organizations to bolster their cybersecurity posture.</li>
-  <br>
-</ul>
-<li><ins>Cybersecurity Training and Education</ins></li>
-<ul>
-  <li>Educating and training individuals or organizations on best practices in cybersecurity.</li>
-  <br>
-</ul>
-
-</ul>
-
-<h3><ins>Professional Associations and Communities</ins></h3>
-Joining professional associations and communities can foster networking, continuous learning, and staying updated on the latest trends and threats.<br>
-<br>
-<ul>
-  
-  <li><a href="https://www.isc2.org/">ISC2:</a> A global community of cybersecurity professionals.</li>
-  <br>
-  <li><a href="https://owasp.org/">OWASP:</a>Open Web Application Security Project, known for its top ten list of web security threats.</li>
-</ul>
-
-
-<h3><ins>Job Prospects</ins></h3>
-
-The demand for ethical hackers is soaring with the perpetual evolution of cyber threats.
-
-<ins>Job Titles:</ins>
-<ul>
-<li>Ethical Hacker</li>
-<li>Penetration Tester</li>
-<li>Security Consultant</li>
-<li>Security Analyst</li>
-</ul>
-
-<ins>Employment Sectors:</ins>
-<ul>
-<li>Financial Institutions</li>
-<li>Healthcare Organizations</li>
-<li>Government Agencies</li>
-<li>Tech Companies</li>
-</ul>
-
-
-
-<h2>Introduction to Bug Bounties</h2>
-Bug bounty programs are a collaborative initiative between companies and the ethical hacking community to identify vulnerabilities in systems, applications, or networks before malicious actors can exploit them.
-<ul>
-<li><ins>Platforms</ins></li>
-  <br>
-<ul>
-  <li><a href="https://www.hackerone.com/">HackerOne: </a>A leading bug bounty platform connecting businesses with ethical hackers. </li><br>
-  
-  <li><a href="https://www.bugcrowd.com/">Bugcrowd:</a> Another reputable platform facilitating bug bounty programs.</li>
-  <br>
-</ul>
-
-<li><ins>Types of Bounties</ins></li>
-<ul>
-  <li>
-    
-  **Public Bounties**: Open to all ethical hackers.</li>
-  <li>
-    
-  **Private Bounties**: Invitation-only, usually for experienced or specialized hackers.</li>
-</ul>
-
-<li><ins>Rewards</ins></li>
-<br>
-<ul>
-  <li>Monetary rewards, swag, or points which can be used for recognition.</li>
-</ul>
-<br>
-<li><ins>Reporting Process</ins></li>
-<br>
-<ul>
-  <li>Identifying a vulnerability, reporting it through the platform, and working with the company to provide more information if necessary.</li>
-</ul>
-</ul>
-
-<h2>Engagement in Bug Bounty Programs</h2>
-Active participation in bug bounty programs is a practical way to hone skills, contribute to cybersecurity, and earn rewards.<br>
-<ul>
-<li><ins>Process of Engagement</ins></li>
-<ul>
-  <li>
-    
-  **Discovery**: Finding vulnerabilities using various tools and techniques. </li>
-  <li>
-    
-  **Reporting**: Documenting the vulnerability, including how it can be replicated and the potential impact.</li>
-  <li>
-    
-  **Resolution**: Collaborating with the company to resolve the issue.</li>
-  <li>
-    
-  **Reward**: Receiving recognition or compensation for the effort.</li>
-</ul>
-
-
-<li><ins>Examples</ins></li>
-<br>
-<ul>
-  <li><a href="https://www.facebook.com/whitehat">Facebook Bug Bounty Program:</a> Facebook rewards ethical hackers for identifying vulnerabilities in its platforms.</li>
-</ul>
-</ul>
-</ul>
-
-
-
-<h2>Legal Frameworks Surrounding Ethical Hacking and Bug Bounties</h2>
-The legal landscape is crucial to ensure ethical hacking activities remain lawful and constructive.
-<ul>
-<li><ins>Responsible Disclosure</ins></li>
-<br>
-<ul>
-<li>Reporting vulnerabilities directly to the organization and giving them time to fix the issue before public disclosure.</li>
-  <br>
-</ul>
-
-<li><ins>Legal Agreements</ins></li>
-<br>
-<ul>
-<li>Adhering to Non-Disclosure Agreements (NDAs) and the terms of the bug bounty program.</li> 
-  <br>
-</ul>
-
-<li><ins>Overstepping Legal Boundaries</ins></li>
-<br>
-<ul>
-  <li>Understanding the repercussions of unauthorized access or testing outside the defined scope of a bug bounty program.</li>
-</ul>
-
-</ul>
-
-
-<h2>Evaluating Real-world Case Studies</h2>
-Analyzing real-world cases provides insights into the practical impact of ethical hacking and bug bounties.<br>
-<br>
-<ul>
-<li><ins>Case Study</ins></li>
-  <br>
-<ul>
-  <li><a href="https://www.hackerone.com/blog/hacker101-success-story">The tale of a bug bounty hunter’s first submission:</a> An inspiring journey of a bug bounty hunter.</li>
-</ul>
-</ul>
-
-
-
-<h2>Practical Application and Hands-on Exploration</h2>
-Hands-on experiences are crucial for honing skills and understanding the real-world dynamics of ethical hacking and bug bounties.
-<ul>
-<li><ins>Hands-on Platforms</ins></li>
-  <br>
-<ul>
-  <li><a href="https://www.hackthebox.eu/">Hack The Box:</a> A platform offering various challenges for honing hacking skills.</li><br>
-
-  <li><a href="https://ctftime.org/">CTF Time:</a> A platform hosting Capture The Flag (CTF) competitions.</li>
-</ul>
-<br>
-<li><ins>Simulated Ethical Hacking</ins></li>
-<br>
-<ul>
-  <li>Engaging in controlled environments to practice ethical hacking skills, such as using VMs like Metasploitable.</li>
-</ul>
-
-</ul>
-
-<h2>Conclusion</h2>
-The synergy between ethical hacking and bug bounties is a robust mechanism to enhance cybersecurity. Through hands-on engagements, legal awareness, and collaborative efforts, the digital realm becomes a more secure frontier against cyber threats.
-
-
-
-
-
-
-
-
-
-
 
 
  
+<h2>How Organizations Utilize WLANs</h2>
+Wireless Local Area Networks (WLANs) are pivotal in today's digital environment. Beyond the usual convenience offered to individual users, organizations across industries are realizing the benefits of WLANs to optimize operations and enhance productivity.
+<ul>
+  <li>
+    
+  **Mobility and Flexibility:** WLANs allow employees to move around the office environment – from conference rooms to individual workstations – without losing network connectivity. This promotes collaboration and real-time decision-making.</li>
+  <li>
+    
+  **Guest Access:** Companies often host clients, partners, or temporary workers. WLANs facilitate temporary guest access, ensuring connectivity without compromising security.</li>
+  <li>
+    
+  **Operational Optimization:** Some businesses, such as retailers or logistics firms, have integrated wireless LAN terminals to streamline operations. This allows for real-time inventory checks, order processing, and other crucial operations without being tethered to a particular location[3].</li>
+   <li>**Cost-Efficiency: A WLAN can be more cost-effective than a wired network, especially in rented spaces or historical buildings where extensive cabling can be problematic.</li>
+  <li>
+    
+  **Connectivity in Challenging Locations:** Areas where it's challenging to lay down wired networks, such as outdoor work environments or sprawling factory floors, can be networked using WLANs.</li>
+  
+  <li>
+    
+  **Fast Deployment:** WLANs can be rapidly deployed, making them especially valuable for temporary setups, like events, pop-up stores, or emergency response centers.</li>
+</ul>
+
+
+
+<h2>Challenges and Considerations</h2>
+<ul>
+  <li>
+    
+  **Security:** Given the wireless nature, WLANs are vulnerable to security breaches. Organizations need robust security protocols to protect sensitive data. Regular audits and employing encryption protocols like WPA3 are essential.</li>
+    <li>
+    
+  **Interference:** Given that WLANs often operate in crowded frequency bands, interference from other devices can be an issue. Proper planning and network design can mitigate these challenges.</li>
+    <li>**Scalability:** As the organization grows, the WLAN must be scalable to accommodate more users and devices.</li>
+</ul>
+
+
+
+<h2>Conslusion</h2>
+
+WLANs offer many advantages to organizations, from enhanced flexibility to cost savings. While there are challenges to consider, particularly around security, with the right approach and ongoing management, the benefits can significantly outweigh the drawbacks. Wireless Local Area Networks have become integral to our daily lives, offering unparalleled convenience. As we navigate the digital world, understanding the basics of WLANs and their security implications is essential to ensure safe and efficient connectivity.
+
+
 
 
 <h2> Presentation</h2>
