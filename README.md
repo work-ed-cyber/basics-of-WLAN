@@ -1,4 +1,4 @@
-<h1> Lesson 6.2: Basics of WLANs </h1>
+<h1> Lesson 6.2: Basics of WLANs</h1>
 <h2> Summary</h2>
 
 <p1>This lesson introduces students to the foundational concepts of Wireless Local Area Networks (WLANs). By understanding WLANs' structure, functioning, and security, students will be better equipped to safely and efficiently utilize wireless networks.</p1>
@@ -9,61 +9,53 @@
 <li>Students will be able to explain what a WLAN is, how it functions, and its main components.</li>
   <br>
 <li>Students will identify the standard frequency bands used in WLANs and discuss their significance.</li><br>
-  
+
 <li>Students will describe standard security measures, including WPA/WPA2/WPA3, and the importance of securing wireless networks.</li><br>
-
+  
 <li>By the end of the lesson, students should be able to set up a simple WLAN, assign an SSID, and apply basic security settings.</li><br>
-
 <li>Students will analyze real-world scenarios to determine the best practices for setting up and securing WLANs in various environments.</li>
+
 </ul>
 
 <h2>Vocabulary and Acronyms</h2>
 
 <ul>
-<li>
+  <li>
 
-  **WLAN**</li>
+**WLAN**</li>
   
 <li>
+  
+**WPA/WPA2/WPA3**</li>
 
+<li>
+
+**Hotspot**</li>
+  
+<li>
+  
 **AP - Access Point**</li>
+
+<li>
   
+**Frequency Bands**</li>
+
+<li>
+  
+**MAC Address Filtering**</li>
+
 <li>
   
 **SSID**</li>
-  
-<li>
-  
-**Bug Bounty**</li>
-  
-<li>
-  
-  **CVE - Common Vulnerabilities and Exposures**</li>
-  
-<li>
-  
- **WPA/WPA2/WPA3**</li>
-
-  <li>
-  
- **Frequency Bands**</li>
-
- <li>
-  
- **Channel**</li>
 
 <li>
   
- **Hotspot**</li>
+**Channel**</li>
 
- <li>
-  
- **MAC Address Filtering**</li>
 
 </ul>
 
 <h2>NICE Framework KSAs</h2>
-
 <ul>
 <li>K0113 - Knowledge of different types of network communication (e.g., LAN, WAN, MAN, WLAN, WWAN).</li>
 <br>
@@ -86,7 +78,7 @@
 
 
 <h2>Lesson Prerequisites</h2>
-<p1>Any topical or subject matter to prepare for the lesson. In Advanced Cyber Lessons, previous Lessons can be referenced.</p1>
+<p1>Any topical or subject matter to prepare for the lesson. In Advanced Cyber Lessons, previous Lessons can be referenced. </p1>
 <br>
 
 
@@ -97,83 +89,83 @@ Wireless Local Area Networks, commonly called WLANs, have revolutionized how we 
 <h2>Definition and Key Concepts</h2>
 A WLAN allows devices to connect and communicate wirelessly within a local area, such as a home, office, or school. The network is facilitated by devices called Access Points (APs), which serve as the central hub for the network.
 
+<h3>Real-World Examples:</h3>
 
-
-<h2>Real-World Examples</h2>
 <ul>
-  <li>
-    
-  **Home Networks:** Most modern households have a WLAN, allowing family members to connect smartphones, laptops, smart TVs, and other devices to the internet wirelessly. The network name (SSID) might be something familiar, like "SmithFamilyWiFi," it would likely be secured using WPA2 or WPA3 to prevent unauthorized access.</li>
-  <li>
-    
-  **Coffee Shops & Restaurants:** Establishments often offer free Wi-Fi as an incentive for customers. You might have connected to an SSID like "CafeLatteFreeWiFi" while sipping your coffee. These networks, being public, have unique security challenges.</li>
-  <li>
-    
-  **Educational Institutions:** Schools and universities set up extensive WLANs to allow students and staff to access resources. Such networks might employ advanced features like MAC Address Filtering to ensure that only school-issued devices can connect.
-</li>
-  <li>
-    
-  **Airports and Transport Hubs:** Airports often have WLANs named after the airport or the service provider. Given the high footfall, these WLANs are designed to handle many connections simultaneously.</li>
-</ul>
-
-<h2> Importance of WLAN Security</h2>
-<ul>
-  <li>WLANs, especially public ones, are susceptible to various threats. Unauthorized access, data interception, and network misuse are just concerns. Therefore, implementing security measures, such as WPA3 encryption and MAC Address Filtering, is crucial.
-  </li>
-  <li>For instance, a hacker might try to create a rogue hotspot at an airport with a similar SSID like "AirportFreeWiFi_2." Unsuspecting users might connect to this rogue network, exposing their data to the hacker. Thus, always ensuring connection to legitimate networks and employing personal security measures like VPNs becomes essential.</li>
+<li><h4>Home Networks</h4></li>
+	<ul><li>Most modern households have a WLAN, allowing family members to connect smartphones, laptops, smart TVs, and other devices to the internet wirelessly. The network name (SSID) might be something familiar, like "SmithFamilyWiFi," it would likely be secured using WPA2 or WPA3 to prevent unauthorized access.</li></ul>
+ <li><h4>Coffee Shops & Restaurants</h4></li>
+	<ul><li>Establishments often offer free Wi-Fi as an incentive for customers. You might have connected to an SSID like "CafeLatteFreeWiFi" while sipping your coffee. These networks, being public, have unique security challenges.</li></ul>
+ <li><h4>Educational Institutions</h4></li>
+	<ul><li>Schools and universities set up extensive WLANs to allow students and staff to access resources. Such networks might employ advanced features like MAC Address Filtering to ensure that only school-issued devices can connect.</li></ul>
+ <li><h4>Airports and Transport Hubs</h4></li>
+ <ul><li> Airports often have WLANs named after the airport or the service provider. Given the high footfall, these WLANs are designed to handle many connections simultaneously.
+</li></ul>
+	
+		
 </ul>
 
 
- 
+<h2>Importance of WLAN Security</h2>
+
+WLANs, especially public ones, are susceptible to various threats. Unauthorized access, data interception, and network misuse are just concerns. Therefore, implementing security measures, such as WPA3 encryption and MAC Address Filtering, is crucial.
+
+For instance, a hacker might try to create a rogue hotspot at an airport with a similar SSID like "AirportFreeWiFi_2." Unsuspecting users might connect to this rogue network, exposing their data to the hacker. Thus, always ensuring connection to legitimate networks and employing personal security measures like VPNs becomes essential.
+
+
 <h2>How Organizations Utilize WLANs</h2>
+
 Wireless Local Area Networks (WLANs) are pivotal in today's digital environment. Beyond the usual convenience offered to individual users, organizations across industries are realizing the benefits of WLANs to optimize operations and enhance productivity.
+
+
 <ul>
-  <li>
-    
-  **Mobility and Flexibility:** WLANs allow employees to move around the office environment – from conference rooms to individual workstations – without losing network connectivity. This promotes collaboration and real-time decision-making.</li>
-  <li>
-    
-  **Guest Access:** Companies often host clients, partners, or temporary workers. WLANs facilitate temporary guest access, ensuring connectivity without compromising security.</li>
-  <li>
-    
-  **Operational Optimization:** Some businesses, such as retailers or logistics firms, have integrated wireless LAN terminals to streamline operations. This allows for real-time inventory checks, order processing, and other crucial operations without being tethered to a particular location[3].</li>
-   <li>**Cost-Efficiency: A WLAN can be more cost-effective than a wired network, especially in rented spaces or historical buildings where extensive cabling can be problematic.</li>
-  <li>
-    
-  **Connectivity in Challenging Locations:** Areas where it's challenging to lay down wired networks, such as outdoor work environments or sprawling factory floors, can be networked using WLANs.</li>
-  
-  <li>
-    
-  **Fast Deployment:** WLANs can be rapidly deployed, making them especially valuable for temporary setups, like events, pop-up stores, or emergency response centers.</li>
+<li><h4>Mobility and Flexibility</h4></li>
+	<ul><li>WLANs allow employees to move around the office environment – from conference rooms to individual workstations – without losing network connectivity. This promotes collaboration and real-time decision-making.</li></ul>
+ <li><h4>Guest Access</h4></li>
+	<ul><li>Companies often host clients, partners, or temporary workers. WLANs facilitate temporary guest access, ensuring connectivity without compromising security.
+Operational Optimization: Some businesses, such as retailers or logistics firms, have integrated wireless LAN terminals to streamline operations. This allows for real-time inventory checks, order processing, and other crucial operations without being tethered to a particular location
+</li></ul>
+ <li><h4>Cost-Efficiency</h4></li>
+	<ul><li>A WLAN can be more cost-effective than a wired network, especially in rented spaces or historical buildings where extensive cabling can be problematic.</li></ul>
+ <li><h4>Connectivity in Challenging Locations</h4></li>
+	<ul><li>Areas where it's challenging to lay down wired networks, such as outdoor work environments or sprawling factory floors, can be networked using WLANs.</li></ul>
+ <li><h4>Fast Deployment</h4></li>
+ <ul><li>WLANs can be rapidly deployed, making them especially valuable for temporary setups, like events, pop-up stores, or emergency response centers.</li></ul>
+
 </ul>
-
-
 
 <h2>Challenges and Considerations</h2>
+
 <ul>
-  <li>
-    
-  **Security:** Given the wireless nature, WLANs are vulnerable to security breaches. Organizations need robust security protocols to protect sensitive data. Regular audits and employing encryption protocols like WPA3 are essential.</li>
-    <li>
-    
-  **Interference:** Given that WLANs often operate in crowded frequency bands, interference from other devices can be an issue. Proper planning and network design can mitigate these challenges.</li>
-    <li>**Scalability:** As the organization grows, the WLAN must be scalable to accommodate more users and devices.</li>
+	<li><h4>Security</h4></li>
+	<ul>
+		<li>Given the wireless nature, WLANs are vulnerable to security breaches. Organizations need robust security protocols to protect sensitive data. Regular audits and employing encryption protocols like WPA3 are essential.
+		</li>
+	</ul>
+	<li><h4>Interference</h4></li>
+	<ul>
+		<li>Given that WLANs often operate in crowded frequency bands, interference from other devices can be an issue. Proper planning and network design can mitigate these challenges.
+		</li>
+	</ul>
+	<li><h4>Scalability</h4></li>
+	<ul>
+		<li> As the organization grows, the WLAN must be scalable to accommodate more users and devices.
+
+</li>
+	</ul>
 </ul>
 
 
-
-<h2>Conslusion</h2>
-
+<h2>Conclusion</h2>
 WLANs offer many advantages to organizations, from enhanced flexibility to cost savings. While there are challenges to consider, particularly around security, with the right approach and ongoing management, the benefits can significantly outweigh the drawbacks. Wireless Local Area Networks have become integral to our daily lives, offering unparalleled convenience. As we navigate the digital world, understanding the basics of WLANs and their security implications is essential to ensure safe and efficient connectivity.
 
-
-
-
 <h2> Presentation</h2>
+
 
 
 <h2> Hands-On Labs</h2>
 
 
-<h2>Additonal Resources</h2>
+<h2> Additional Resources</h2>
+
 
