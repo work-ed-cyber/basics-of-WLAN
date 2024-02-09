@@ -92,13 +92,13 @@ A WLAN allows devices to connect and communicate wirelessly within a local area,
 <h3>Real-World Examples:</h3>
 
 <ul>
-<li><h4>Home Networks</h4></li>
+<li><h4><ins>Home Networks</ins></h4></li>
 	<ul><li>Most modern households have a WLAN, allowing family members to connect smartphones, laptops, smart TVs, and other devices to the internet wirelessly. The network name (SSID) might be something familiar, like "SmithFamilyWiFi," it would likely be secured using WPA2 or WPA3 to prevent unauthorized access.</li></ul>
- <li><h4>Coffee Shops & Restaurants</h4></li>
+ <li><h4><ins>Coffee Shops & Restaurants</ins></h4></li>
 	<ul><li>Establishments often offer free Wi-Fi as an incentive for customers. You might have connected to an SSID like "CafeLatteFreeWiFi" while sipping your coffee. These networks, being public, have unique security challenges.</li></ul>
- <li><h4>Educational Institutions</h4></li>
+ <li><h4><ins>Educational Institutions</ins></h4></li>
 	<ul><li>Schools and universities set up extensive WLANs to allow students and staff to access resources. Such networks might employ advanced features like MAC Address Filtering to ensure that only school-issued devices can connect.</li></ul>
- <li><h4>Airports and Transport Hubs</h4></li>
+ <li><h4><ins>Airports and Transport Hubs</h4></li>
  <ul><li> Airports often have WLANs named after the airport or the service provider. Given the high footfall, these WLANs are designed to handle many connections simultaneously.
 </li></ul>
 	
@@ -119,17 +119,17 @@ Wireless Local Area Networks (WLANs) are pivotal in today's digital environment.
 
 
 <ul>
-<li><h4>Mobility and Flexibility</h4></li>
+<li><h4><ins>Mobility and Flexibility</ins></h4></li>
 	<ul><li>WLANs allow employees to move around the office environment – from conference rooms to individual workstations – without losing network connectivity. This promotes collaboration and real-time decision-making.</li></ul>
- <li><h4>Guest Access</h4></li>
+ <li><h4><ins>Guest Access</ins></h4></li>
 	<ul><li>Companies often host clients, partners, or temporary workers. WLANs facilitate temporary guest access, ensuring connectivity without compromising security.
 Operational Optimization: Some businesses, such as retailers or logistics firms, have integrated wireless LAN terminals to streamline operations. This allows for real-time inventory checks, order processing, and other crucial operations without being tethered to a particular location
 </li></ul>
- <li><h4>Cost-Efficiency</h4></li>
+ <li><h4><ins>Cost-Efficiency</ins></h4></li>
 	<ul><li>A WLAN can be more cost-effective than a wired network, especially in rented spaces or historical buildings where extensive cabling can be problematic.</li></ul>
- <li><h4>Connectivity in Challenging Locations</h4></li>
+ <li><h4><ins>Connectivity in Challenging Locations</h4></li>
 	<ul><li>Areas where it's challenging to lay down wired networks, such as outdoor work environments or sprawling factory floors, can be networked using WLANs.</li></ul>
- <li><h4>Fast Deployment</h4></li>
+ <li><h4><ins>Fast Deployment</ins></h4></li>
  <ul><li>WLANs can be rapidly deployed, making them especially valuable for temporary setups, like events, pop-up stores, or emergency response centers.</li></ul>
 
 </ul>
@@ -137,17 +137,17 @@ Operational Optimization: Some businesses, such as retailers or logistics firms,
 <h2>Challenges and Considerations</h2>
 
 <ul>
-	<li><h4>Security</h4></li>
+	<li><h4><ins>Security</ins></h4></li>
 	<ul>
 		<li>Given the wireless nature, WLANs are vulnerable to security breaches. Organizations need robust security protocols to protect sensitive data. Regular audits and employing encryption protocols like WPA3 are essential.
 		</li>
 	</ul>
-	<li><h4>Interference</h4></li>
+	<li><h4><ins>Interference</ins></h4></li>
 	<ul>
 		<li>Given that WLANs often operate in crowded frequency bands, interference from other devices can be an issue. Proper planning and network design can mitigate these challenges.
 		</li>
 	</ul>
-	<li><h4>Scalability</h4></li>
+	<li><h4><ins>Scalability</ins></h4></li>
 	<ul>
 		<li> As the organization grows, the WLAN must be scalable to accommodate more users and devices.
 
