@@ -57,23 +57,23 @@
 
 <h2>NICE Framework KSAs</h2>
 <ul>
-<li>K0113 - Knowledge of different types of network communication (e.g., LAN, WAN, MAN, WLAN, WWAN).</li>
+<li>K0113: Knowledge of different types of network communication (e.g., LAN, WAN, MAN, WLAN, WWAN).</li>
 <br>
-<li>K0428 - Knowledge of encryption algorithms and tools for wireless local area networks (WLANs).</li>
+<li>K0428: Knowledge of encryption algorithms and tools for wireless local area networks (WLANs).</li>
 <br>
-<li>K0442	- Knowledge of how converged technologies impact cyber operations (e.g., digital, telephony, wireless).</li>
+<li>K0442: Knowledge of how converged technologies impact cyber operations (e.g., digital, telephony, wireless).</li>
 <br>
-<li>K0446 - Knowledge of how modern wireless communications systems impact cyber operations.</li>
+<li>K0446: Knowledge of how modern wireless communications systems impact cyber operations.</li>
 <br>
-<li>K0600 - Knowledge of modern wireless communications systems' structure, architecture, and design.</li>
+<li>K0600: Knowledge of modern wireless communications systems' structure, architecture, and design.</li>
 <br>
-<li>S0182 - Skill in analyzing target communications internals and externals collected from wireless LANs.</li>
+<li>S0182: Skill in analyzing target communications internals and externals collected from wireless LANs.</li>
 <br>
-<li>S0276 - Skill in survey, collection, and analysis of wireless LAN metadata.</li>
+<li>S0276: Skill in survey, collection, and analysis of wireless LAN metadata.</li>
 <br>
-<li>S0299 - Skill in wireless network target analysis, templating, and geolocation.</li> 
+<li>S0299: Skill in wireless network target analysis, templating, and geolocation.</li> 
 <br>
-<li>A0100 - Ability to perform wireless collection procedures to include decryption capabilities/tools.</li>
+<li>A0100: Ability to perform wireless collection procedures to include decryption capabilities/tools.</li>
 </ul>
 
 
@@ -158,6 +158,18 @@ Operational Optimization: Some businesses, such as retailers or logistics firms,
 
 <h2>Conclusion</h2>
 WLANs offer many advantages to organizations, from enhanced flexibility to cost savings. While there are challenges to consider, particularly around security, with the right approach and ongoing management, the benefits can significantly outweigh the drawbacks. Wireless Local Area Networks have become integral to our daily lives, offering unparalleled convenience. As we navigate the digital world, understanding the basics of WLANs and their security implications is essential to ensure safe and efficient connectivity.
+
+<h2>Vocabulary</h2>
+<ul>
+<li><b>WLAN (Wireless Local Area Network):</b> A network that allows devices to connect and communicate wirelessly within a limited area.</li><br>
+<li><b>WPA/WPA2/WPA3:</b> Successive versions of security protocols designed to protect wireless networks from unauthorized access.</li><br>
+<li><b>Hotspot:</b> A physical location where people can access the internet using a wireless network.</li><br>
+<li><b>AP (Access Point):</b> A device that enables wireless devices to connect to a wired network.</li><br>
+<li><b>Frequency Bands:</b> Ranges of radio frequencies used for transmitting data wirelessly.</li><br>
+<li><b>MAC Address Filtering:</b> A security feature that restricts network access to devices with specific MAC addresses.</li><br>
+<li><b>SSID (Service Set Identifier):</b> The unique name of a wireless network.</li><br>
+<li><b>Channel:</b> A specific frequency within a frequency band used for transmitting wireless signals.</li>
+</ul>
 
 <h2> Presentation</h2>
 
