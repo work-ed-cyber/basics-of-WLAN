@@ -177,6 +177,8 @@ WLANs offer many advantages to organizations, from enhanced flexibility to cost 
 
 <h2> Hands-On Labs</h2>
 
+<h2>Games</h2>
+<a href="https://create.kahoot.it/share/quiz-lesson-6-2-basics-of-wlans/4d6a5e98-f884-4cac-91b2-f79213112432"> Kahoot: Basics of WLANs </a> 
 
 <h2> Additional Resources</h2>
 
