@@ -172,7 +172,7 @@ WLANs offer many advantages to organizations, from enhanced flexibility to cost 
 </ul>
 
 <h2> Presentation</h2>
-
+<a href="https://docs.google.com/presentation/d/1v-0sNi3sxg_IHK4ms69ZCuVqenNjeUkX/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true"> Basics of WLAN </a>
 
 
 <h2> Hands-On Labs</h2>
