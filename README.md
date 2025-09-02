@@ -93,7 +93,7 @@ A WLAN allows devices to connect and communicate wirelessly within a local area,
 
 <ul>
 <li><h4><ins>Home Networks</ins></h4></li>
-	<ul><li>Most modern households have a WLAN, allowing family members to connect smartphones, laptops, smart TVs, and other devices to the internet wirelessly. The network name (SSID) might be something familiar, like "SmithFamilyWiFi," it would likely be secured using WPA2 or WPA3 to prevent unauthorized access.</li></ul>
+	<ul><li>Most modern households have a WLAN, allowing family members to connect smartphones, laptops, smart TVs, and other devices to the internet wirelessly. The network name (SSID) might be something familiar, like "SmithFamilyWiFi," It would likely be secured using WPA2 or WPA3 to prevent unauthorized access.</li></ul>
  <li><h4><ins>Coffee Shops & Restaurants</ins></h4></li>
 	<ul><li>Establishments often offer free Wi-Fi as an incentive for customers. You might have connected to an SSID like "CafeLatteFreeWiFi" while sipping your coffee. These networks, being public, have unique security challenges.</li></ul>
  <li><h4><ins>Educational Institutions</ins></h4></li>
